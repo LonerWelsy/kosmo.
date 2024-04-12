@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    min-height: 100vh;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background: url("../img/starkiteckt-designs-atlantisnebula8.jpg") no-repeat ;
+    background-size: cover;
+    background-position: center;
+}
+
+.header_block{
+    background-color: black;
+    display: flex;
+    
+
+}
+.block_1{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    max-width: 2100px;
+ 
+}
+.menu{
+    gap: 20px;
+    list-style: none;
+    padding: 20px;
+    background: none;
+    display:  flex;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-size:20px ;
+    transition:  color .0.2s;
+}
+.roscosmos{
+    height: 40px;
+}
+.menu a:hover{
+    transition:  color 0.5s;
+    color: rgb(155, 144, 216);
+    border-bottom: 2px solid rgb(155, 144, 216);
+}
+
+
+.block_2{
+    margin: 0 auto;
+    margin-top: 30px;
+    height:550px;
+    width: 75%;
+    max-width: 1100px;
+    background-color: rgba(0, 0, 0, 0.445);
+}
+
+.jojo{
+    padding: 20px;
+    color: white;
+    float: left;
+}
+.jojo p {
+    width: 450px;
+    font-size: 17px;
+    margin-top: 40px;
+}
+
+.lleft{
+    float: right;
+    padding: 20px;
+}
+
+.urie{
+    height: 260px;
+    border-radius: 15px;
+     transition: transform 0.5s;
+}
+.urie:hover{
+    transform: scale(1.1);
+
+}
+
+
+.cnopca {
+    width: 450px;
+    height:30px ;
+    background: #23118b46;
+    border-radius: 15px;
+    border: 1px solid rgb(255, 255, 255);
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+}
+
+@media screen and (max-width: 1325px){
+    .urie{
+        width: 450PX;
+        height: 260px;
+        border-radius: 15px;
+        transition: transform 0.5s;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .jojo{
+        padding: 20px;
+        color: white;
+        float: none;
+      
+    }
+    .jojo p {
+        width: 70%;
+        font-size: 17px;
+        margin-top: 40px;
+        margin-left:15% ;
+    }
+    .lleft{
+        float: none;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .block_2{
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+       
+    
+    }   
+
+    .cnopca {
+        width: 450px;
+        height:30px ;
+        background: #23118b46;
+        border-radius: 15px;
+        border: 1px solid rgb(255, 255, 255);
+        margin-top: 30px;
+        text-align: center;
+        color: white; 
+        margin: 0 auto;
+        
+    }
+}
+
+
+    
